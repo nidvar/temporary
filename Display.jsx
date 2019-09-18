@@ -1,9 +1,9 @@
 class Display extends React.Component{
     state={
-        display:'main',
+        display:'NIDVAR',
     }
     grab_data=(data)=>{
-        this.setState({display:data},()=>{console.log(this.state.display)})
+        this.setState({display:data})
     }
     display_on_page=()=>{
         if(this.state.display==='NIDVAR'){
@@ -12,8 +12,7 @@ class Display extends React.Component{
             return <Apps />
         }else if(this.state.display==='Websites'){
             return <Websites />
-        }
-        else if(this.state.display==='About'){
+        }else if(this.state.display==='About'){
             return <About />
         }
     }
