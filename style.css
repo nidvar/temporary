@@ -49,7 +49,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	letter-spacing: 2px;
-	background: url('bg2.png') no-repeat center center fixed;
+	background: url('images/bg2.png') no-repeat center center fixed;
 }
 .Main h1{
 	font-size:60px;
@@ -63,4 +63,34 @@ body{
 	align-items: center;
 	width:800px;
 	margin:auto;
+}
+/* ***************************************** */
+.Websites{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	width:800px;
+	margin:auto;
+}
+/* ***************************************** */
+.boxes{
+	box-shadow: 1px 1px 1px gray;
+	margin:20px;
+	height:180px;
+	width:220px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.boxes img{
+	max-height:200px;
+	max-width:200px;
+}
+.flex_row{
+	display:flex;
+	flex-wrap: wrap;
+}
+.black{
+	background-color:black;
 }
