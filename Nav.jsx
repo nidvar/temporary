@@ -1,12 +1,15 @@
 class Nav extends React.Component{
+    apps=(e)=>{
+        this.props.grab_data(e.target.innerText)
+    }
     render(){
         return(
             <div className='Nav'>
-                <h1>NIDVAR</h1>
+                <a href='#' onClick={this.apps}><h1>NIDVAR</h1></a>
                 <ul>
-                    <li><a href='#'>Apps</a></li>
-                    <li><a href='#'>Websites</a></li>
-                    <li><a href='#'>About</a></li>
+                    <li><a href='#' onClick={this.apps}>Apps</a></li>
+                    <li><a href='#' onClick={this.apps}>Websites</a></li>
+                    <li><a href='#' onClick={this.apps}>About</a></li>
                 </ul>
             </div>
         )

@@ -5,7 +5,14 @@ body{
 .break{
 	height:70px;
 }
+.hidden{
+	display:none;
+}
+.appsasdf{
+	background-color:skyblue;
+}
 .Nav h1{
+	color:#212529;
 	font-weight:bolder;
 	font-size:35px;
 }
