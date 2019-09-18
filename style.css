@@ -43,7 +43,7 @@ body{
 }
 /* ***************************************** */
 .Main{
-	height:85vh;
+	height:80vh;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
@@ -53,4 +53,14 @@ body{
 }
 .Main h1{
 	font-size:60px;
+}
+/* ***************************************** */
+.About{
+	height:60vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width:800px;
+	margin:auto;
 }
