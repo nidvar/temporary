@@ -48,7 +48,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	letter-spacing: 2px;
-	border:1px solid #dee2e6;
+	background: url('bg2.png') no-repeat center center fixed;
 }
 .Main h1{
 	font-size:60px;
