@@ -1,0 +1,48 @@
+body{
+	margin:0;
+	padding:40px 40px 10px 50px;
+}
+.break{
+	height:70px;
+}
+.Nav h1{
+	font-weight:bolder;
+	font-size:35px;
+}
+.Nav{
+	letter-spacing: 1px;
+	display:flex;
+	justify-content: baseline;
+	align-items: center;
+	margin:0 0 20px 0;
+}
+.Nav ul{
+	margin:0;
+	padding:0 0 0 20px;
+	display:flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.Nav ul li{
+	list-style-type:none;
+	margin:0 10px 0 10px;
+}
+.Nav a{
+	color:gray;
+}
+.Nav a:hover{
+	text-decoration:none;
+}
+/* ***************************************** */
+.Main{
+	height:85vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 2px;
+	border:1px solid #dee2e6;
+}
+.Main h1{
+	font-size:60px;
+}
