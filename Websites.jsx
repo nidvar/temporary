@@ -12,6 +12,7 @@ class Websites extends React.Component{
                     <Boxes className='boxes' image='images/intelligentss.png' source='http://intelligentss.com.au/' />
                     <Boxes className='boxes' image='images/elco.jpg' source='https://elcoconstructions.com.au/' />
                     <Boxes className='boxes' image='images/goldenfalafel.png' source='http://goldenfalafel.com.au/' />
+                    <Boxes className='black boxes' image='images/microfocus.png' source='https://microfocusgroup.com.au/' />
                 </div>
             </div>
         )
